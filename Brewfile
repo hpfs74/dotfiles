@@ -1,0 +1,86 @@
+tap "benwebber/tunnelblickctl"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "remind101/formulae"
+tap "sambadevi/powerlevel9k"
+brew "webp"
+brew "aws-vault"
+brew "python@3.9"
+brew "awscli"
+brew "blueutil"
+brew "glib"
+brew "cairo"
+brew "dependency-check"
+brew "gobject-introspection"
+brew "harfbuzz"
+brew "libass"
+brew "ffmpeg"
+brew "gcc"
+brew "git"
+brew "pinentry"
+brew "gnupg"
+brew "httpie"
+brew "kubernetes-cli"
+brew "liquibase"
+brew "lolcat"
+brew "mas"
+brew "maven"
+brew "netcat"
+brew "nmap"
+brew "nvm"
+brew "nyancat"
+brew "openjdk@11"
+brew "pinentry-mac"
+brew "pyenv"
+brew "qemu"
+brew "rsyslog", restart_service: true
+brew "sshuttle"
+brew "stress"
+brew "subversion"
+brew "telnet"
+brew "terraform"
+brew "tnftp"
+brew "tor", restart_service: true
+brew "tree"
+brew "benwebber/tunnelblickctl/tunnelblickctl"
+brew "remind101/formulae/assume-role"
+brew "sambadevi/powerlevel9k/powerlevel9k"
+cask "1password"
+cask "azure-data-studio"
+cask "docker"
+cask "dotnet"
+cask "dropbox"
+cask "flux"
+cask "font-hack-nerd-font"
+cask "font-source-code-pro"
+cask "google-chrome"
+cask "insomnia"
+cask "iterm2"
+cask "microsoft-teams"
+cask "obsidian"
+cask "openemu"
+cask "rectangle"
+cask "skype"
+cask "spotify"
+cask "spotmenu"
+cask "switchresx"
+cask "tunnelblick"
+cask "visual-studio-code"
+cask "whatsapp"
+mas "1Password", id: 443987910
+mas "Bear", id: 1091189122
+mas "HP Easy Scan", id: 967004861
+mas "HP Smart", id: 1474276998
+mas "iStat Menus", id: 1319778037
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Slack", id: 803453959
+mas "Telephone", id: 406825478
+mas "Xcode", id: 497799835
+mas "Yubico Authenticator", id: 1497506650
