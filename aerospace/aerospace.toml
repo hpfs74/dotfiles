@@ -59,6 +59,7 @@ alt-c = 'workspace C' # code
 alt-d = 'workspace D' # docs
 alt-e = 'workspace E' # finder
 alt-m = 'workspace M' # mail
+alt-o = 'workspace O' # office
 alt-s = 'workspace S' # slack
 alt-t = 'workspace T' # terminal
 
@@ -77,6 +78,7 @@ alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
 alt-shift-e = 'move-node-to-workspace E'
 alt-shift-m = 'move-node-to-workspace M'
+alt-shift-o = 'move-node-to-workspace O'
 alt-shift-s = 'move-node-to-workspace S'
 alt-shift-t = 'move-node-to-workspace T'
 
@@ -139,6 +141,14 @@ run = 'move-node-to-workspace A'
 [[on-window-detected]]
 if.app-id = "com.1password.1password"
 run = [ "layout floating" ]
+
+[[on-window-detected]]
+if.app-id = "com.apple.mail"
+run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = "com.microsoft.Word"
+run = "move-node-to-workspace O"
 
 [workspace-to-monitor-force-assignment]
 C = 'secondary'
