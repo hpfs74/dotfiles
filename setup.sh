@@ -8,7 +8,11 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots
 killall SystemUIServer
 
 # Dock setup
-defaults write com.apple.dock mineffect -string suck; killall Dock
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock orientation left
+defaults write com.apple.dock mineffect -string suck
+killall Dock
+
 
 chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
